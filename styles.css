@@ -1,3 +1,4 @@
+
 .container {
   width: 70%;
   margin: auto;
@@ -11,20 +12,20 @@
 }
 
 body {
-  background-color: #310b30;
+  background-color: #742150;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 rgb(43, 160, 228);
+  text-shadow: 5px 0 #ac0ff5;
   font-size: 8rem;
-  color: #07212d0f;
+  color: hsla(198, 83%, 50%, 0.815);
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #19aded;
   font-family: 'arial', cursive;
 }
 
@@ -42,5 +43,5 @@ footer {
 button{
   text-align: center;
   background-color: aqua;
-  color: rgb(53, 9, 57);
+  color: rgb(229, 52, 25);
 }
