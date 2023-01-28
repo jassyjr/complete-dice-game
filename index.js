@@ -7,7 +7,14 @@ function changeInnerHTML() {
   document.getElementById("prom2").innerHTML = player2;
 }
 
-
+document.getElementById("form").addEventListener("submit", function hide(event) {
+  event.preventDefault();
+  document.getElementById("form").style.display = "none";
+  });
+  document.getElementById("form1").addEventListener("submit", function hide(event) {
+    event.preventDefault();
+    document.getElementById("form1").style.display = "none";
+    });
 document.getElementById("btn1").addEventListener("click",function roll(){
   var player2 = document.getElementById("input2").value;
   var player1 = document.getElementById("input1").value; 
@@ -40,6 +47,7 @@ document.getElementById("btn1").addEventListener("click",function roll(){
       document.querySelector("h1").innerHTML = "Draw!";
     }
     });
+
     document.getElementById("btn2").addEventListener("click",function roll(){
       var player2 = document.getElementById("input2").value;
       var player1 = document.getElementById("input1").value;
@@ -72,5 +80,8 @@ document.getElementById("btn1").addEventListener("click",function roll(){
         document.querySelector("h1").innerHTML = "Draw!";
       }
       });
+    
+
+
     
 
